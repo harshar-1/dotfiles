@@ -1,6 +1,4 @@
-# dotfiles
-# test
-# test 2 
+#!/usr/bin/env bash
 
 # Modified from:
 # Jake Jarvis dotfiles
