@@ -1,3 +1,4 @@
+#!/bin/sh
 which -s brew
 if [[ $? != 0 ]] ; then
     # Install Homebrew
