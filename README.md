@@ -1,8 +1,16 @@
-# dotfiles
-# test
-# test 2 
+# My dotfiles
 
-# Modified from:
-# Jake Jarvis dotfiles
-# https://github.com/jakejarvis/dotfiles/blob/main/macos/defaults.sh
+
+## Usage
+install.sh
+This should run
+brew.sh
+macos/defaults.sh
+
+Later, set up the preferences in init folder
+
+## Thanks to 
+Mathias Bynens - https://github.com/mathiasbynens/dotfiles
+
+Jake Jarvis - https://github.com/jakejarvis/dotfiles
 
