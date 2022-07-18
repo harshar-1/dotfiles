@@ -5,3 +5,4 @@ if [[ $? != 0 ]] ; then
     /bin/bash -c "$(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh](https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh))"
 else
     brew update
+fi
