@@ -1,5 +1,5 @@
-# 
-# https://github.com/geerlingguy/dotfiles
+" 
+" https://github.com/geerlingguy/dotfiles
 
 syntax on               " enable syntax highlighting
 set cursorline          " highlight the current line
