@@ -8,7 +8,6 @@ set number              " show line numbers
 set showcmd             " show selection metadata
 set showmode            " show INSERT, VISUAL, etc. mode
 set showmatch           " show matching brackets
-set autoindent smartindent  " auto/smart indent
 set smarttab            " better backspace and tab functionality
 set scrolloff=5         " show at least 5 lines above/below
 filetype on             " enable filetype detection
@@ -35,18 +34,5 @@ set visualbell          " but leave on a visual bell
 set hlsearch            " highlight the search results
 set showmatch           " show matching brackets
 
-" other
-set guioptions=aAace    " don't show scrollbar in MacVim
-" call pathogen#infect()    " use pathogen
-
 " clipboard
 set clipboard=unnamed   " allow yy, etc to interact with OS X clipboard
-
-" shortcuts
-map <F2> :NERDTreeToggle<CR>
-
-" remapped keys
-inoremap {      {}<LEFT>
-inoremap {<CR>  {<CR}<ESC>0
-inoremap {{     {
-inoremap {}     {}
