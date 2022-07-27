@@ -7,10 +7,11 @@
 
 # https://stackoverflow.com/a/53183593
 
-# macOS Catalina - zsh - realpath not working
+# macOS Catalina - realpath not working
+# 
 # YOU_ARE_HERE="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 
-
+# https://stackoverflow.com/questions/3572030/bash-script-absolute-path-with-os-x
 realpath() {
     [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
 }
