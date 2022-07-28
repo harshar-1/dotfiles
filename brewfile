@@ -5,7 +5,100 @@
 #  Taps                       #
 ###############################
 
-tap "homebrew/core"
+tap "homebrew/bundle"
 tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/cask-fonts"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
 tap "homebrew/services"
+
 tap "buo/cask-upgrade"
+tap "1password/tap"
+
+
+###############################
+#  Binaries                   #
+###############################
+
+# GNU utilities (those that come with macOS are outdated)
+brew "coreutils"
+brew "moreutils"
+brew "findutils"
+brew "gnutls"
+brew "gnu-indent"
+brew "gnu-sed"
+brew "gnu-tar"
+brew "gnu-indent"
+brew "gnu-which"
+
+# More recent versions of some macOS tools
+brew "vim"  #, args: ["with-override-system-vi"]
+
+# Git
+brew "git"
+brew "git-lfs"
+brew "git-crypt"
+brew "gh"
+
+# Mostly ordinary binaries
+brew "mas"
+
+
+###############################
+#  macOS Apps via Cask        #
+###############################
+
+# System Utilities
+cask "daisydisk"
+cask "barrier"
+
+# Passwords, VPNs, other Security
+cask "1password"
+cask "authy"
+
+# Development/Work
+cask "iterm2"
+
+# Media
+cask "vlc"
+
+# Communication/Social
+cask "discord"
+cask "skype"
+cask "slack"
+cask "telegram"
+cask "whatsapp"
+cask "zoomus"
+
+# Browsers (for reference only -- install these via offline DMGs no matter what)
+# * Firefox
+#    - Stable
+#    - Dev: https://www.mozilla.org/en-US/firefox/developer/
+#    - Nightly: https://www.mozilla.org/en-US/firefox/channel/desktop/
+# * Chrome
+#    - Stable
+#    - Canary: https://www.google.com/chrome/canary/
+# * Safari
+#    - Preview: https://developer.apple.com/safari/technology-preview/
+
+###############################
+#  Fonts                      #
+###############################
+
+# Monospace
+cask "homebrew/cask-fonts/font-cascadia-code"
+cask "homebrew/cask-fonts/font-source-code-pro"
+cask "homebrew/cask-fonts/font-hack"
+cask "homebrew/cask-fonts/font-ibm-plex-mono"
+cask "homebrew/cask-fonts/font-roboto-mono"
+cask "homebrew/cask-fonts/font-sf-mono"  # iTerm/VS Code font, comes in .pkg
+cask "homebrew/cask-fonts/font-sf-mono-for-powerline"
+
+# Sans/Serif
+cask "homebrew/cask-fonts/font-comic-neue"
+cask "homebrew/cask-fonts/font-inter"
+cask "homebrew/cask-fonts/font-roboto"
+cask "homebrew/cask-fonts/font-open-sans"
+cask "homebrew/cask-fonts/font-sf-compact"  # comes in .pkg
+cask "homebrew/cask-fonts/font-sf-pro"  # comes in .pkg
