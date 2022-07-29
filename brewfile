@@ -43,7 +43,7 @@ brew "gh"
 
 # Mostly ordinary binaries
 brew "mas"
-
+brew "svn" # required for font installation
 
 ###############################
 #  macOS Apps via Cask        #
@@ -51,10 +51,14 @@ brew "mas"
 
 # System Utilities
 cask "daisydisk"
+
+# Remote access, Screen controls, Window controls
 cask "barrier"
+cask "rectangle"
+cask "monitorcontrol"
 
 # Passwords, VPNs, other Security
-cask "1password"
+# cask "1password"
 cask "authy"
 
 # Development/Work
@@ -69,7 +73,17 @@ cask "skype"
 cask "slack"
 cask "telegram"
 cask "whatsapp"
-cask "zoomus"
+# cask "zoomus"  
+
+# Automation
+cask "bunch"
+
+
+# Utilities
+cask "itsycal"
+cask "notion"
+
+
 
 # Browsers (for reference only -- install these via offline DMGs no matter what)
 # * Firefox
@@ -92,7 +106,7 @@ cask "homebrew/cask-fonts/font-source-code-pro"
 cask "homebrew/cask-fonts/font-hack"
 cask "homebrew/cask-fonts/font-ibm-plex-mono"
 cask "homebrew/cask-fonts/font-roboto-mono"
-cask "homebrew/cask-fonts/font-sf-mono"  # iTerm/VS Code font, comes in .pkg
+cask "homebrew/cask-fonts/font-sf-mono"  # iTerm/VS Code font, comes in .pkg, requires password
 cask "homebrew/cask-fonts/font-sf-mono-for-powerline"
 
 # Sans/Serif
@@ -102,3 +116,19 @@ cask "homebrew/cask-fonts/font-roboto"
 cask "homebrew/cask-fonts/font-open-sans"
 cask "homebrew/cask-fonts/font-sf-compact"  # comes in .pkg
 cask "homebrew/cask-fonts/font-sf-pro"  # comes in .pkg
+
+###############################
+#  macOS Apps via App Store   #
+###############################
+
+# Apple
+# mas "Apple Configurator 2", id: 1037126344
+
+#mas "GarageBand", id: 682658836
+#mas "iMovie", id: 408981434
+#mas "Keynote", id: 409183694
+#mas "Numbers", id: 409203825
+#mas "Pages", id: 409201541
+
+
+
