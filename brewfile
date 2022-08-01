@@ -44,6 +44,9 @@ brew "gh"
 # Mostly ordinary binaries
 brew "mas"
 brew "svn" # required for font installation
+brew "htop"
+brew "glances"
+
 
 ###############################
 #  macOS Apps via Cask        #
@@ -51,6 +54,9 @@ brew "svn" # required for font installation
 
 # System Utilities
 cask "daisydisk"
+cask "drivedx"
+cask "superduper"
+
 
 # Remote access, Screen controls, Window controls
 cask "barrier"
@@ -82,8 +88,11 @@ cask "bunch"
 # Utilities
 cask "itsycal"
 cask "notion"
+cask "easyfind"
+cask "alfred"
 
 
+# cask "xmenu"  # not found
 
 # Browsers (for reference only -- install these via offline DMGs no matter what)
 # * Firefox
@@ -95,6 +104,7 @@ cask "notion"
 #    - Canary: https://www.google.com/chrome/canary/
 # * Safari
 #    - Preview: https://developer.apple.com/safari/technology-preview/
+
 
 ###############################
 #  Fonts                      #
@@ -130,5 +140,24 @@ cask "homebrew/cask-fonts/font-sf-pro"  # comes in .pkg
 #mas "Numbers", id: 409203825
 #mas "Pages", id: 409201541
 
+
+
+########################################
+#  Free Apps to be installed manually  #
+########################################
+
+# 
+
+
+#############################################
+#  Purchased Apps to be installed manually  #
+#############################################
+
+# Devonthink
+# Hazel
+# Keyboard Maestro
+# SuperDuper
+# Typinator
+# DaisyDisk
 
 
